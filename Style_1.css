@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #7f7979;
+    color: white;
+}
+
+.box-1 {
+    background-color: #222222;
+    width: 100%;
+    top: 0;
+}
+
+.box-2 {
+    background-color: white;
+    width: 100%;
+    padding-top: 140px;
+    padding-bottom: 90px;
+
+}
+
+.box-3 {
+    color: #f9f9f9;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row;
+    margin: auto;
+    top: 0;
+}
+
+.logo img {
+    width: 14vw;
+    ;
+}
+
+.right ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.right ul li span {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 14px;
+}
+
+.right img {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 14px;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    max-width: 70vw;
+    margin: auto;
+    padding: 24px 0;
+}
+
+.content {
+    text-align: left;
+    margin: 0 20px 0 0;
+    padding: 15px;
+}
+
+.content>img {
+    text-align: center;
+
+}
+
+.learnmore {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.learnmore>a {
+    color: white;
+
+}
+
+.button {
+    display: flex;
+    gap: 23px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.button :nth-child(1) {
+    text-decoration: none;
+    color: white;
+    background-color: #09a6bd;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.trial {
+    font-size: 14px;
+}
+
+.button :nth-child(2) {
+    text-decoration: none;
+    background-color: #22222200;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.ultraedit-book {
+    text-align: center;
+}
+
+.latest-updates :nth-child(1) {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    line-height: 24px;
+    margin: 10px;
+
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    margin: auto;
+    padding-bottom: 10px
+}
+
+.yellow {
+    width: 100%;
+    background-color: #ffe500;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: #222222;
+    text-align: center;
+    padding: 15px;
+}
+
+.performance {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.performance>ul {
+    text-align: center;
+}
+
+.reviews {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #222222;
+    max-width: 70vw;
+    margin: auto;
+    text-align: center;
+}
+
+.large {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.small {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.access {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    color: black;
+    text-align: center;
+    margin: 10px;
+    padding: 12px;
+}
+
+.utility {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    color: black;
+    text-align: center;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* color: #222222; */
+    max-width: 70vw;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-3 img {
+    margin-bottom: 20px;
+}
+
+.grid {
+    max-width: 10vw;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #222222;
+}
+
+.download a {
+    background-color: #09a6bd;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 12px 20px;
+    border-color: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 5px;
+    /* min-height: 48px; */
+}
+
+.description {
+    margin: 22px;
+}
+
+.reading-part {
+    color: #222222;
+}
+
+.grid-4 {
+    display: grid;
+    max-width: 70vw;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 23px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.reading-part h1 {
+    text-align: center;
+}
+
+.reading-part h2 {
+    text-align: center;
+}
+
+.definition {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.writer {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.designation {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 13px;
+}
+
+.try-ultraedit {
+    margin: auto;
+    width: 30vw;
+    max-width: 70vw;
+}
+
+/** box 3 **/
+
+.your-language {}
